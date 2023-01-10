@@ -8,15 +8,28 @@
   <link rel="shortcut icon" href="https://img.icons8.com/pastel-glyph/2x/dog-heart--v2.png" type="image/x-icon">
   <title>Quienes somos</title>
 </head>
-<nav>
-  <a href="we.html">Quienes somos</a>
-  <a href="we.html">Nuestros CV</a>
-  <a href="cv.html">CV</a>
-  Contacto
-
-</nav>
 
 <body>
+  <nav>
+    <a href="we.html">Quienes somos</a>
+    <a href="we.html">Nuestros CV</a>
+    <a href="cv.html">CV</a>
+    Contacto
+
+  </nav>
+  <h1>CONTACTO</h1>
+  <h2>Rellena el formulario para contacto</h2>
+
+  <form>
+    <label for="fname">Nombre:</label><br>
+    <input type="text" id="name" name="fname"><br>
+    <label for="lname">Email:</label><br>
+    <input type="email" id="email" name="lname" placeholder="campo obligatorio" required><br>
+    <label for="lname">Comentarios:</label><br>
+    <input type="text" id="comment" name="lname" style="width: 150px; height: 150px" autofocus="autofocus"><br><br>
+    <input type="submit" value="Send!">
+    <input type="reset">
+  </form>
 
 </body>
 
